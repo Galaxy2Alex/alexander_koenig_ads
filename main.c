@@ -72,8 +72,8 @@ int main() {
 			printf("Player %hd has won!", boolPlayer + 1);
 			break;
 		} else if(gamesave[0] != 65 && gamesave[1] != 66 && gamesave[2] != 67 &&
-			gamesave[3] != 68 && gamesave[4] != '5' && gamesave[5] != '6' &&
-			gamesave[6] != '7' && gamesave[7] != '8' && gamesave[8] != '9') {
+			gamesave[3] != 68 && gamesave[4] != 69 && gamesave[5] != 70 &&
+			gamesave[6] != 71 && gamesave[7] != 72 && gamesave[8] != 73) {
 			printf("Tie!");
 			break;
 		}
